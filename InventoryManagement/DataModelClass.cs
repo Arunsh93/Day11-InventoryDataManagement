@@ -4,10 +4,30 @@ using System.Text;
 
 namespace InventoryManagement
 {
-    class DataModelClass
+    public class DataModelClass
     {
-        string Name;
-        int Kg;
-        int Price;
+        public List<Rice> RiceList;
+        public List<Wheat> WheatList;
+        public List<Pulses> PulseList;
+        public class Rice
+        {
+            public string name;
+            public int price;
+            public int kg;
+        }
+
+        public class Wheat
+        {
+            public string name;
+            public int price;
+            public int kg;
+        }
+
+        public class Pulses
+        {
+            public string name;
+            public int price;
+            public int kg;
+        }
     }
 }
