@@ -7,42 +7,47 @@ namespace InventoryManagement
     {
         static void Main(string[] args)
         {
+            int totalInventoryPriceForWheat = 0;
+            int totalInventoryPriceForRice = 0;
+            int totalInventoryPriceForPulses = 0;
             InventoryManager inventoryDetails = new InventoryManager();
 
             DataModelClass dataModelClass = new DataModelClass();
             dataModelClass = inventoryDetails.Read("D:/Json/InventoryDetails.json");
-            int totalInventoryPriceForRice = 0;
-            int totalInventoryPriceForWheat = 0;
-            int totalInventoryPriceForPulse = 0;
 
-            for (int i = 0; i < dataModelClass.RiceList.Count; i++)
+            foreach (var item in dataModelClass.RiceList)
             {
-                Console.WriteLine(dataModelClass.RiceList[i].name);
-                Console.WriteLine(dataModelClass.RiceList[i].kg);
-                Console.WriteLine(dataModelClass.RiceList[i].price);
-                totalInventoryPriceForRice += dataModelClass.RiceList[i].kg * dataModelClass.RiceList[i].price;
+
+                Console.WriteLine($"Name : {item.name}\nWeight : {item.kg}\nPrice per Kg: {item.price}");
+                int totalPriceForRice = item.kg * item.price;
+                Console.WriteLine($"Total value of {item.name} = " + totalPriceForRice);
+
+                totalInventoryPriceForRice += totalPriceForRice;
             }
-            Console.WriteLine("Total Price of Rice per Kg is: " + totalInventoryPriceForRice);
+            Console.WriteLine("Total Bill For Rice is: " + totalInventoryPriceForRice);
+            
 
             Console.WriteLine("============Wheat============");
-            for (int i = 0; i < dataModelClass.WheatList.Count; i++)
+            foreach (var item in dataModelClass.WheatList)
             {
-                Console.WriteLine(dataModelClass.WheatList[i].name);
-                Console.WriteLine(dataModelClass.WheatList[i].kg);
-                Console.WriteLine(dataModelClass.WheatList[i].price);
-                totalInventoryPriceForWheat += dataModelClass.WheatList[i].kg * dataModelClass.WheatList[i].price;
+                Console.WriteLine($"Name : {item.name}\nWeight : {item.kg}\nPrice per Kg: {item.price}");
+                int totalPriceForWheat = item.kg * item.price;
+                Console.WriteLine($"Total value of {item.name} = " + totalPriceForWheat);
+
+                totalInventoryPriceForWheat += totalPriceForWheat;
             }
-            Console.WriteLine("Total Price of Wheat per Kg is: " + totalInventoryPriceForWheat);
+            Console.WriteLine("Total Bill For Wheat is: " + totalInventoryPriceForWheat);
 
             Console.WriteLine("============Pulses============");
-            for (int i = 0; i < dataModelClass.PulseList.Count; i++)
-            {
-                Console.WriteLine(dataModelClass.PulseList[i].name);
-                Console.WriteLine(dataModelClass.PulseList[i].kg);
-                Console.WriteLine(dataModelClass.PulseList[i].price);
-                totalInventoryPriceForPulse += dataModelClass.PulseList[i].kg * dataModelClass.PulseList[i].price;
+            foreach (var item in dataModelClass.PulseList)
+            { 
+                Console.WriteLine($"Name : {item.name}\nWeight : {item.kg}\nPrice per Kg: {item.price}");
+                int totalPriceForPulse = item.kg * item.price;
+                Console.WriteLine($"Total value of {item.name} = " + totalPriceForPulse);
+
+                totalInventoryPriceForPulses += totalPriceForPulse;
             }
-            Console.WriteLine("Total Price of Pulses per Kg is: " + totalInventoryPriceForPulse);
+            Console.WriteLine("Total Bill For Wheat is: " + totalInventoryPriceForPulses);
         }
     }
 }

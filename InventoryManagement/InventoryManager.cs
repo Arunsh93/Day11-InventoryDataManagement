@@ -12,7 +12,6 @@ namespace InventoryManagement
         {
             try
             {
-
                 using (StreamReader file = new StreamReader(path))
                 {
 
