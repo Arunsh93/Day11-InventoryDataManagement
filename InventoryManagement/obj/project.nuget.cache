@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8P5SHaroczULDuWUSxw6V1vaek+vpxG0yzD0xOIGFHUXcbVnkPv1EHXSctRGl3/8ZRx9N9uqLVLQ64mtLFMthg==",
+  "success": true,
+  "projectFilePath": "E:\\ASP.NET\\Day11-InventoryDataManagement\\InventoryManagement\\InventoryManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arun Hosur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

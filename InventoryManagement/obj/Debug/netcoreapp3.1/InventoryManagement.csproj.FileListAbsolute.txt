@@ -1,0 +1,16 @@
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\InventoryManagement.exe
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\InventoryManagement.deps.json
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\InventoryManagement.runtimeconfig.json
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\InventoryManagement.runtimeconfig.dev.json
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\InventoryManagement.dll
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\InventoryManagement.pdb
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.csproj.AssemblyReference.cache
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.AssemblyInfoInputs.cache
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.AssemblyInfo.cs
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.csproj.CoreCompileInputs.cache
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.csproj.CopyComplete
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.dll
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.pdb
+E:\ASP.NET\Day11-InventoryDataManagement\InventoryManagement\obj\Debug\netcoreapp3.1\InventoryManagement.genruntimeconfig.cache
